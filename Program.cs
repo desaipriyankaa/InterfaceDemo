@@ -17,6 +17,7 @@ namespace InterfaceDemo
             var Bobj = new B();
             //InterfaceDEmo demo = Bobj;
             //demo.start();
+
             ((InterfaceDEmo)Bobj).start();
             Bobj.start();
             Bobj.stop();
